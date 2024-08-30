@@ -7,6 +7,7 @@ import lombok.Data;
 
 @Data
 public class UserDto {
+    private String test;
     private String userUuid;
     private String mobile;
     private String userName;
